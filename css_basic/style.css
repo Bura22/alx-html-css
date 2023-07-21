@@ -1,0 +1,80 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    margin-right: 0;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+header
+{
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color: rgba(37, 37, 37, 0.5);
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    padding-right: 30px;
+}
+
+header ul li a
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header ul li a:hover
+{
+    color: orangered;
+}
+
+main{
+    display: flex;
+
+}
+
+article
+{
+    flex: 3;
+    overflow-y: auto;
+}
+
+article a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(102, 100, 100);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+article a:hover
+{
+    color: orangered;
+}
+
+aside
+{
+    flex: 2;
+    overflow-y: auto;
+}
+
+h2
+{
+    color: rgb(207, 164, 247);
+    border-radius: 10px;
+}
+
+
